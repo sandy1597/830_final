@@ -1,5 +1,5 @@
 ﻿altair==4.2.0
-seaborn==1.16.0
+seaborn==0.11.2
 attrs==22.1.0
 blinker==1.5
 cachetools==5.2.0

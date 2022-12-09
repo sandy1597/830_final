@@ -38,7 +38,7 @@ with siteHeader:
 with dataExploration:
     st.header('Dataset: Body performance')
 
-data = pd.read_csv("/Users/sandeepvemulapalli/Desktop/Cmse830_final/bodyPerformance.csv")
+data = pd.read_csv("bodyPerformance.csv")
 
 
 # Data PreProcessing
@@ -98,7 +98,7 @@ with st.sidebar:
     
 if(d=="Dataset"):
     
-    image = Image.open("/Users/sandeepvemulapalli/Desktop/fitness.png")
+    image = Image.open("fitness.png")
     st.image(image,caption="Image taken from Spanish Fan share- Google")
     
     st.header("Motivation")
